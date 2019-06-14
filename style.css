@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Starjedi";
+  src: url("./font/Starjedi.ttf") format("ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  background-image: url(/etoile.jpg);
+  background-size: cover;
+}
+
+canvas {
+  background: black;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: black;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+  font-size: 1.5em;
+  font-family: "Starjedi";
+  display: flex;
+  align-items: center;
+}
+.img-darkmaul {
+  width: 20%;
+}
+
+.img-darkmaul img {
+  width: 100%;
+}
+
+.modal-text {
+  width: 60%;
+  font-size: 25px;
+}
+
+.font {
+  font-family: "Starjedi";
+  text-align: center;
+  padding: 50px;
+  color: #ffff00;
+  letter-spacing: 8px;
+  font-size: 45px;
+}
+
+.score {
+  color: yellow;
+  font-family: "Starjedi";
+  border: 0 0 0 1000px;
+  font-size: 30px;
+}
+
+.life {
+  color: yellow;
+  font-family: "Starjedi";
+  font-size: 30px;
+}
