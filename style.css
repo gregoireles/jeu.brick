@@ -9,7 +9,7 @@
 }
 
 .cover {
-  background-image: url(/etoile.jpg);
+  background-image: url("./etoile.jpg");
   background-size: cover;
 }
 
